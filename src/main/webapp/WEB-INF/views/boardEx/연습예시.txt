@@ -1,0 +1,17 @@
+[ 연습예시 ]
+
+
+	1.  BoardController를 생성한다.
+	  
+	  - 중첩 경로는 "boardEx" 로 지정한다.
+	
+	  - 좌측의 4개의 url을 우측의 jsp파일과 연결한다.
+	  
+		1) boardList	>	boardEx폴더의 bList.jsp로 연결
+		2) boardWrite	>	boardEx폴더의 bWrite.jsp로 연결
+		3) boardUpdate	>	boardEx폴더의 bUpdate.jsp로 연결
+		4) boardDelete	>	boardEx폴더의 bDelete.jsp로 연결
+	
+	
+	
+	2. 설정파일은 tiles폴더의 board-tiles.xml로 생성하고 layout은 tiles교육때 사용하던 default를 그대로 사용한다.
